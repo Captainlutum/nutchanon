@@ -17,8 +17,13 @@ public class ServiceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_service);
 
-
+//        Create Tool Bar
+        createToolBar();
 
 
     } // Main Method
+
+    private void createToolBar() {
+        toolbar = findViewById(R.id.toolbarService);
+    }
 } // Main Class
