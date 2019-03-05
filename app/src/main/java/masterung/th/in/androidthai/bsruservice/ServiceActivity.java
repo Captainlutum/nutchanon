@@ -25,5 +25,8 @@ public class ServiceActivity extends AppCompatActivity {
 
     private void createToolBar() {
         toolbar = findViewById(R.id.toolbarService);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 } // Main Class
